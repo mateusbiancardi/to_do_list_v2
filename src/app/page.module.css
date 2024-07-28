@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.html .body {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to right, #11161B, #080A0B);
+}
+
+.container {
+  display: flex;
+  width: 40%;
+  border-radius: 20px;
+  padding: 24px;
+  background-color: #131517;
+  color: white;
+  font-family: Montserrat;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  gap: 16px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .container {
+    display: flex;
+    width: 50%;
+    border-radius: 20px;
+    padding: 24px;
+    background-color: #131517;
+    color: white;
+    font-family: Montserrat;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    gap: 16px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    width: 80%;
+    border-radius: 20px;
+    padding: 24px;
+    background-color: #131517;
+    color: white;
+    font-family: Montserrat;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    gap: 16px;
+  }
+}
+
+.title {
+  margin: 0;
+}
+
+.inputWrapper {
+  display: flex;
+  gap: 8px;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  color: white;
+  font-family: Montserrat;
+  background-color: #131517;
+  border: 1px solid #3D8DE2;
+  border-radius: 20px;
+}
+
+.input:hover {
+  border: 1px solid #2E6AA8;
+  transition: 0.2s;
+}
+
+.input:focus-within {
+  outline: 1.5px solid #2E6AA8;
+  transition: ease-in-out 0.3s;
+}
+
+.buttonwrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1300px) {
+  .buttonwrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: space-between;
+  }
+}
+
+.tasksTable {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

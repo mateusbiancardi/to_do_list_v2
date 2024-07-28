@@ -1,0 +1,41 @@
+.taskContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputWrapper {
+  display: flex;
+  gap: 8px;
+}
+
+.taskname {
+  margin: 0;
+}
+
+.tasknameChecked {
+  margin: 0;
+  color: gray;
+  text-decoration: line-through;
+}
+
+.checkbox {
+  cursor: pointer;
+  width: 16px;
+  margin: 0;
+}
+
+.checkboxdiv {
+  display: flex;
+  align-items: center;
+}
+
+.trash {
+  color: red;
+  cursor: pointer;
+}
+
+.trash:hover {
+  color: #a10707;
+  transition: ease-in-out 0.2s;
+}

@@ -1,0 +1,31 @@
+.taskButton {
+  background-color: #3D8DE2;
+  color: white;
+  text-align: center;
+  font-family: Montserrat;
+  border: none;
+  border-radius: 20px;
+  padding: 0px 5%;
+  cursor: pointer;
+}
+
+.taskButton:hover {
+  background-color: #2E6AA8;
+  transition: 0.2s;
+}
+
+.taskButtonVariant {
+  background-color: #131517;
+  border: 1px solid #3D8DE2;
+  color: white;
+  text-align: center;
+  font-family: Montserrat;
+  border-radius: 20px;
+  padding: 8px 48px;
+  cursor: pointer;
+}
+
+.taskButtonVariant:hover {
+  background-color: #3D8DE2;
+  transition: 0.2s;
+}
